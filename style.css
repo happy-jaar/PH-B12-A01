@@ -5,41 +5,37 @@
     font-variation-settings:
         width 100;
 }
-
 main {
     margin: 5% 15%;
 }
-
 .radius {
     border-radius: 25px;
 }
-
 .text-center {
     text-align: center;
 }
-
 .blue {
     color: #4E47FF;
 }
 .ash{
     color: #757575;
 }
-
 .btn {
     background-color: #4E47FF;
-    font-weight: bold;
     font-size: 20px;
     color: aliceblue;
     padding: 10px 10px;
     border-radius: 7px;
     border: none;
 }
-
+.btn:hover{
+    background-color: rgb(248, 248, 169);
+    color:#413e3e;
+}
 header {
     background-image: url(image/Hero-bg.png);
     padding: 20px 100px 200px;
 }
-
 nav {
     font-size: larger;
     display: flex;
@@ -47,20 +43,17 @@ nav {
     justify-content: space-between;
     margin: 30px 150px;
 }
-
 .banner {
     font-size: x-large;
     text-align: center;
     padding: 50px 10px;
 }
-
 .S1 {
     font-size: large;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
-
 .S2 {
     background-color: #dcdcf7;
     border-radius: 20px;
@@ -68,19 +61,16 @@ nav {
     margin-top: 100px;
 
 }
-
 .head-tail {
     display: flex;
     justify-content: space-between;
 }
-
 .head {
     color: #4E47FF;
     font-weight: bolder;
     font-size: 60px;
     font-weight: 350px;
 }
-
 .tail {
     font-size: medium;
     color: #757575;
@@ -96,17 +86,13 @@ nav {
 }
 form,.title{
     width: 50%;
-    
 }
 input[type="email"], input[type="text"], textarea{
     height: 30px;
-    /* border-radius: 5px; */
-    /* background-color: white; */
     display: block;
     width: 100%;
     padding: 10px 30px;
     margin-bottom: 10px;
-    /* border: none; */
 }
 .links{
     display: flex;
@@ -114,7 +100,6 @@ input[type="email"], input[type="text"], textarea{
     padding: 30px;
 }
 footer{
-    /* padding: 0px 230px; */
-    /* gap: 100px; */
     margin: 100px 550px;
+    text-align: center;
 }
