@@ -21,6 +21,9 @@ main {
 .blue {
     color: #4E47FF;
 }
+.ash{
+    color: #757575;
+}
 
 .btn {
     background-color: #4E47FF;
@@ -61,7 +64,7 @@ nav {
 .S2 {
     background-color: #dcdcf7;
     border-radius: 20px;
-    padding: 50px 100px;
+    padding: 50px 150px;
     margin-top: 100px;
 
 }
@@ -72,10 +75,36 @@ nav {
 }
 
 .head {
+    color: #4E47FF;
+    font-weight: bolder;
     font-size: 60px;
     font-weight: 350px;
 }
 
 .tail {
     font-size: medium;
+    color: #757575;
+}
+.connect{
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: 60px;
+}
+form,.title{
+    width: 50%;
+    
+}
+input[type="email"], input[type="text"], textarea{
+    height: 30px;
+    /* border-radius: 5px; */
+    /* background-color: white; */
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    /* border: none; */
 }
